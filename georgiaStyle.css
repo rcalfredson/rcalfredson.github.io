@@ -12,6 +12,11 @@ a:visited {
 	color: #42220E;
 }
 
+.secret-message {
+  color: rgb(23, 130, 180);
+  font-style: italic;
+}
+
 .top {
 	font-size: medium;
 	line-height: 130%;
