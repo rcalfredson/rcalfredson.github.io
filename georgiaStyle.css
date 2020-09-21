@@ -1,0 +1,65 @@
+BODY {
+	BACKGROUND-COLOR: white; 
+	FONT-FAMILY: Georgia, Times, "Times New Roman", serif;
+	font-size: medium;
+	text-align: center;
+}
+	
+a:link { 
+	color: #00327D;
+}
+a:visited { 
+	color: #42220E;
+}
+
+.top {
+	font-size: medium;
+	line-height: 130%;
+	text-align: center;
+	margin-top: 90px;
+	margin-bottom: 60px;
+}
+.middle {
+	font-size: small;
+	text-align: center;
+}
+.ceneteredmiddle {
+	font-size: small;
+	text-align: center; 
+}
+.bottom {
+	font-size: medium;
+	line-height: 130%;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 90px;
+}
+
+.small {
+	font-size: small;
+}
+
+.xsmall{
+	font-size: x-small;
+}
+
+.xxsmall{
+	font-size: xx-small;
+}
+
+
+#whitediv {
+	font-size: xx-small;
+	color: white;
+	text-decoration: none;
+}
+#whitediv a: {color: white; text-decoration: none;}
+
+.white {
+	font-size: xx-small;
+	color: white;
+	text-decoration: none;
+}
+.italic {
+	font-style: italic;
+}
