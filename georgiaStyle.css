@@ -17,6 +17,15 @@ a:visited {
   font-style: italic;
 }
 
+.captioned-img-div {
+	font-size: 80%;
+	text-align: center;
+}
+
+.captioned-img {
+	padding-bottom: 0.5em;
+}
+
 .top {
 	font-size: medium;
 	line-height: 130%;
