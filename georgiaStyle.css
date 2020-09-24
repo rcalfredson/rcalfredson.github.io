@@ -18,8 +18,9 @@ a:visited {
 }
 
 .captioned-img-div {
-	font-size: 80%;
+	font-size: 100%;
 	text-align: center;
+	display: inline-block;
 }
 
 .captioned-img {
