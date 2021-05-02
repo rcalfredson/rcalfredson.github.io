@@ -1,0 +1,25 @@
+---
+---
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv=Content-Type content="text/html">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{page.title}}</title>
+  <link rel=Stylesheet type="text/css" media=all href=georgiaStyle.css>
+  <meta name=keywords content="{{page.keywords}}">
+  <meta name=description content="{{page.description}}">
+</head>
+
+<body>
+  {% assign ignored = site.data.exclude_pages | split:"," %}
+  {% unless ignored contains page.url %}
+  {% include navigation.html %}
+  {% endunless %}
+
+  {{content}}
+</body>
+
+</html>
